@@ -1,0 +1,64 @@
+
+.cor-simples{
+    color: lightgreen; 
+
+}
+
+.cor-complexa{ 
+    color: rgb(55, 12, 255); 
+
+}
+
+.cor-translucido{ 
+    color: rgba(99, 160, 55,0.7); 
+
+}
+ 
+
+.fundo-simples{
+    background-color: aqua; 
+}
+
+
+.fundo-complexa{ 
+    background-color: rgb(55, 12, 255); 
+}
+
+
+.fundo-translucido{ 
+    background-color: rgba(99, 160, 55, 0.7); 
+}
+
+.fundo-imagem-simples{ 
+    background-image: url('/pasta/css.png') ; 
+}
+.fundo-imagem-complexa{ 
+    background-image: url('/pasta/css.png') ;
+    background-repeat: no-repeat  ; 
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+
+
+
+.fundo-imagem-multiplo-simples{ 
+    background-image: url('/pasta/css.png'),url('/pasta/css_2.png');   
+}
+
+
+.fundo-imagem-multiplo-complexa{  
+    background-image: url('/pasta/css.png'),url('/pasta/css_2.png');  
+    background-repeat: repeat-x repeat-y; 
+    background-position: top, right;
+    background-attachment: scroll,fixed;
+}
+
+
+
+
+.box{
+    width: 400px;
+    height: 400px;
+}
+
